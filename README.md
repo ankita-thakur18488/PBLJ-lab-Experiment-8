@@ -27,23 +27,24 @@ This experiment covers fundamental and advanced concepts of Servlets and JSP (Ja
 - Add it in VS Code → Tomcat for Java → Add a Tomcat Server.
 
 #### 3 Project Structure
-PBLJ-Servlets/
-├── src/
-│   ├── main/
-│   │   ├── java/com/pblj/servlets/MyServlet.java
-│   │   ├── resources/ (Optional - config files)
-│   │   ├── webapp/
-│   │   │   ├── index.html
-│   │   │   ├── index.jsp
-│   │   │   ├── WEB-INF/
-│   │   │   │   ├── web.xml
-│   │   │   │   ├── lib/ (JAR dependencies)
-├── pom.xml (if using Maven)
-└── .vscode/ (VS Code settings)
+    PBLJ-Servlets/
+    ├── src/
+    │   ├── main/
+    │   │   ├── java/com/pblj/servlets/MyServlet.java
+    │   │   ├── resources/ (Optional - config files)
+    │   │   ├── webapp/
+    │   │   │   ├── index.html
+    │   │   │   ├── index.jsp
+    │   │   │   ├── WEB-INF/
+    │   │   │   │   ├── web.xml
+    │   │   │   │   ├── lib/ (JAR dependencies)
+    ├── pom.xml (if using Maven)
+    └── .vscode/ (VS Code settings)
 
 #### 4 Configure Dependencies
 - Without Maven: Download servlet-api.jar, place in lib/, and add to classpath.
-- With Maven (Recommended): Add the configuration in pom.xml:
+- With Maven (Recommended):  Run mvn clean package and deploy the .war file to Tomcat’s webapps/ directory.
+- Start Tomcat Server in VS Code to run the application.
 
 
 ## 📌 Experiment 7:Develop web applications using Servlets and JSP for user input handling, database integration.
