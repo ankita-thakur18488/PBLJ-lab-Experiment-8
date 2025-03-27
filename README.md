@@ -1,11 +1,17 @@
 # PBLJ-lab-Experiment-8 (Servlets and JSP)
 
-## Topics Covered
+## Overview
 
-Servlet Lifecycle, Generic Servlet, Http Servlet, Linking Servlet to HTML, HTTPServlet Request and Response, Servlet with JDBC, configuring project using servlet, Servlet Config and Servlet Mapping JSP declaration, JSP directives, JSP Scriptlets, JSP include tag, JSP page tag
+This experiment covers fundamental and advanced concepts of Servlets and JSP (Java Server Pages), essential for building dynamic web applications. Servlets are Java programs that run on a web server, handling client requests and generating dynamic responses. JSP enables embedding Java code in HTML pages for easier server-side scripting.
 
+### Topics Covered
 
-
+- Servlet Basics: Servlet Lifecycle, Generic Servlet, HttpServlet, Linking Servlet to HTML
+- HTTP Servlet Request and Response: Handling GET and POST requests
+- Database Integration: Connecting Servlets with JDBC for data retrieval and manipulation
+- Servlet Configuration: Configuring servlets using web.xml, ServletConfig, and ServletContext
+- JSP Essentials: JSP directives, Scriptlets, Expressions, and Declaration tags
+- JSP Page Handling: Including files, using JSP actions, and handling user inputs dynamically
   
 ## 📌 Experiment 7:Develop web applications using Servlets and JSP for user input handling, database integration.
 
