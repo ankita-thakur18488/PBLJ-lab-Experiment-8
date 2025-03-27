@@ -26,7 +26,7 @@ This experiment covers fundamental and advanced concepts of Servlets and JSP (Ja
 - Extract it (e.g., C:\Tomcat).
 - Add it in VS Code → Tomcat for Java → Add a Tomcat Server.
 
-#### 3 Project Structure
+#### 3 Project Structure [Use this structure for your Experiment] https://github.com/j2eeexpert2015/simplewebapp
     PBLJ-Servlets/
     ├── src/
     │   ├── main/
