@@ -55,4 +55,8 @@ This experiment covers fundamental and advanced concepts of Servlets and JSP (Ja
 | **[8.2) Medium](/Exp8.2.java)** |Create a servlet integrated with JDBC to display a list of employees from a database. Include a search form to fetch employee details by ID.|
 | **[8.3) Hard](/Exp8.3.java)** | Develop a JSP-based student portal. Include a form for entering attendance details and save them to the database using a servlet.|
 
+### How to Submit (ZIP File)
+- Ensure all required files are included (HTML, JSP, Servlet .java files, web.xml, database scripts).
+- Test your project on Tomcat before submission.
+- Zip the complete folder and name it Exp8_YourName/uid.zip.
 -----
