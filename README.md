@@ -28,11 +28,18 @@ This experiment covers fundamental and advanced concepts of Servlets and JSP (Ja
 
 #### 3 Project Structure
 PBLJ-Servlets/
-├── src/main/java/MyServlet.java
-├── webapp/index.html
-├── webapp/WEB-INF/web.xml
-├── lib/ (JAR dependencies)
-└── pom.xml (if using Maven)
+├── src/
+│   ├── main/
+│   │   ├── java/com/pblj/servlets/MyServlet.java
+│   │   ├── resources/ (Optional - config files)
+│   │   ├── webapp/
+│   │   │   ├── index.html
+│   │   │   ├── index.jsp
+│   │   │   ├── WEB-INF/
+│   │   │   │   ├── web.xml
+│   │   │   │   ├── lib/ (JAR dependencies)
+├── pom.xml (if using Maven)
+└── .vscode/ (VS Code settings)
 
 #### 4 Configure Dependencies
 - Without Maven: Download servlet-api.jar, place in lib/, and add to classpath.
