@@ -15,7 +15,30 @@ This experiment covers fundamental and advanced concepts of Servlets and JSP (Ja
 - JSP Essentials: JSP directives, Scriptlets, Expressions, and Declaration tags
 - JSP Page Handling: Including files, using JSP actions, and handling user inputs dynamically
 
+## Setting Up Servlets & JSP in VS Code
+#### 1 Install Required Extensions
+- Java Extension Pack
+- Tomcat for Java
+- Debugger for Java
   
+#### 2 Install & Configure Apache Tomcat
+- Download Tomcat from Apache Tomcat.
+- Extract it (e.g., C:\Tomcat).
+- Add it in VS Code → Tomcat for Java → Add a Tomcat Server.
+
+#### 3 Project Structure
+PBLJ-Servlets/
+├── src/main/java/MyServlet.java
+├── webapp/index.html
+├── webapp/WEB-INF/web.xml
+├── lib/ (JAR dependencies)
+└── pom.xml (if using Maven)
+
+#### 4 Configure Dependencies
+- Without Maven: Download servlet-api.jar, place in lib/, and add to classpath.
+- With Maven (Recommended): Add the configuration in pom.xml:
+
+
 ## 📌 Experiment 7:Develop web applications using Servlets and JSP for user input handling, database integration.
 
 | Program    | Description                                 |
