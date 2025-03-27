@@ -4,6 +4,8 @@
 
 This experiment covers fundamental and advanced concepts of Servlets and JSP (Java Server Pages), essential for building dynamic web applications. Servlets are Java programs that run on a web server, handling client requests and generating dynamic responses. JSP enables embedding Java code in HTML pages for easier server-side scripting.
 
+![image](https://github.com/user-attachments/assets/e2cfb9b4-a49e-48ea-af6f-c791853ca269)
+
 ### Topics Covered
 
 - Servlet Basics: Servlet Lifecycle, Generic Servlet, HttpServlet, Linking Servlet to HTML
@@ -12,6 +14,7 @@ This experiment covers fundamental and advanced concepts of Servlets and JSP (Ja
 - Servlet Configuration: Configuring servlets using web.xml, ServletConfig, and ServletContext
 - JSP Essentials: JSP directives, Scriptlets, Expressions, and Declaration tags
 - JSP Page Handling: Including files, using JSP actions, and handling user inputs dynamically
+
   
 ## 📌 Experiment 7:Develop web applications using Servlets and JSP for user input handling, database integration.
 
