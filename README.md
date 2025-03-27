@@ -15,7 +15,7 @@ This experiment covers fundamental and advanced concepts of Servlets and JSP (Ja
 - JSP Essentials: JSP directives, Scriptlets, Expressions, and Declaration tags
 - JSP Page Handling: Including files, using JSP actions, and handling user inputs dynamically
 
-## Setting Up Servlets & JSP in VS Code
+## Setting Up Servlets & JSP in VS Code ( Watch this video: https://youtu.be/lO-pavgTewo?si=Ez-OtIgghAi3Zmak)
 #### 1 Install Required Extensions
 - Java Extension Pack
 - Tomcat for Java
